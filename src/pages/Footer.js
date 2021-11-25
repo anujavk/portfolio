@@ -8,14 +8,14 @@ const Footer = () => {
             <div id="footer" className={classes.main}>
                 &lt;/&gt; made with
                 <span className={classes.icon}>
-                    <FaHeart/>
+                    <FaHeart />
                 </span>
                 using
                 <span className={classes.icon}>
-                    <FaReact  />
+                    <FaReact />
                 </span>
                 by
-                <NavLink to={{ pathname: 'https://github.com/anujavk?tab=repositories' }} target="_blank" className={classes.link}>
+                <NavLink basename="" to={{ pathname: 'https://github.com/anujavk?tab=repositories' }} target="_blank" className={classes.link}>
                     Anuja
                 </NavLink>
             </div>
