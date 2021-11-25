@@ -1,5 +1,4 @@
 import classes from './Project.module.css';
-import { useState } from 'react';
 
 const data = [
     {
