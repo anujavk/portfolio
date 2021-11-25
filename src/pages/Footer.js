@@ -15,9 +15,9 @@ const Footer = () => {
                     <FaReact />
                 </span>
                 by
-                <NavLink basename="" to={{ pathname: 'https://github.com/anujavk?tab=repositories' }} target="_blank" className={classes.link}>
+                <a className={classes.link} href="https://github.com/anujavk?tab=repositories" target="_blank" rel="noopener noreferrer">
                     Anuja
-                </NavLink>
+                </a>
             </div>
         </section>
     );
