@@ -1,6 +1,5 @@
 import classes from './Footer.module.css';
 import { FaHeart, FaReact } from 'react-icons/fa';
-import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
     return (

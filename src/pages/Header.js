@@ -40,12 +40,12 @@ const Header = (props) => {
             {!verNav && <GiHamburgerMenu className={classes.icons} onClick={verNavOpenHandler} />}
             {verNav && <MdClose className={classes.icons} onClick={verNavCloseHandler} />}
             <div className={classes.tabsDiv}>
-                <NavLink basename="" to={{ pathname: 'https://github.com/anujavk?tab=repositories' }} target="_blank" className={tabClass} activeClassName={classes.active}>
+                <a className={tabClass} activeClassName={classes.active} href="https://github.com/anujavk?tab=repositories" target="_blank" rel="noopener noreferrer">
                     <IoLogoGithub className={classes.iconBtn} />
-                </NavLink>
-                <NavLink basename="" to={{ pathname: 'https://www.linkedin.com/in/anuja-khadatkar-435235166' }} target="_blank" className={tabClass} activeClassName={classes.active}>
+                </a>
+                <a href="https://www.linkedin.com/in/anuja-khadatkar-435235166" target="_blank" rel="noopener noreferrer" className={tabClass} activeClassName={classes.active}>
                     <IoLogoLinkedin className={classes.iconBtn} />
-                </NavLink>
+                </a>
                 <NavLink to={{ pathname: 'https://www.google.com' }} target="_blank" className={tabClass} activeClassName={classes.active}>
                     Resume
                 </NavLink>
