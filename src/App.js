@@ -1,10 +1,10 @@
 import './App.css';
 import { BrowserRouter } from 'react-router-dom';
-import { useState, Fragment } from 'react';
+import { Fragment } from 'react';
 import HomeBg from './components/HomeBg';
 import Header from './pages/Header';
 import Hello from './pages/Hello';
-import AboutMe from './pages/AboutMe';
+//import AboutMe from './pages/AboutMe';
 import Experience from './pages/Experience';
 import Education from './pages/Education';
 import Project from './pages/Project';
@@ -14,10 +14,10 @@ import Footer from './pages/Footer';
 
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/portfolio">
             <div className="App">
-                <HomeBg/>
-                <Header/>
+                <HomeBg />
+                <Header />
                 <Fragment>
                     <Hello />
                     {/* <AboutMe /> */}
