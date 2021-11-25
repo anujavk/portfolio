@@ -1,0 +1,54 @@
+.main {
+    position: relative;
+    display: block;
+    z-index: 10;
+    padding-top: 7vh;
+    padding-bottom: 9vh;
+}
+
+.title {
+    font-size: 4.5vh;
+    color: #0076b5;
+    text-decoration: underline;
+    margin-bottom: 6vh;
+    font-family: 'Heebo', sans-serif;
+}
+
+.box {
+    margin-left: 12vw;
+    margin-right: 12vw;
+    background-color: #f8f8f8;
+    padding: 20px;
+    padding-bottom: 23px;
+    border: 1px solid #98c6e0ac;
+    box-shadow: rgba(60, 64, 67, 0.143) 0px 1px 2px 0px, rgba(60, 64, 67, 0.075) 0px 1px 3px 1px;
+}
+
+.degree {
+    font-size: 3.4vh;
+    color: #005582;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.name {
+    font-size: 2.6vh;
+    color: #656565;
+    margin-bottom: 6px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.name span {
+    color: #a5a5a5;
+    font-family: 'Outfit', sans-serif;
+}
+
+.sylb {
+    color: #858585;
+    font-size: 2.4vh;
+    font-family: 'Outfit', sans-serif;
+    max-width: 90%;
+    text-align: center;
+    padding-left: 5%;
+    padding-top: 1vh;
+}

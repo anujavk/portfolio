@@ -1,0 +1,49 @@
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+    padding-top: 7vh;
+    padding-bottom: 9vh;
+}
+
+.title {
+    font-size: 4.5vh;
+    color: #0076b5;
+    text-decoration: underline;
+    margin-bottom: 7vh;
+    font-family: 'Heebo', sans-serif;
+}
+
+.skillList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    width: 75vw;
+    font-family: 'Barlow', sans-serif;
+}
+
+.item {
+    font-size: 2.8vh;
+    padding: 0.5vh;
+    padding-left: 1.2vh;
+    padding-right: 1.2vh;
+    color: #737373;
+    background-color: #F5F5F5;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+@media only screen and (max-width: 1025px) {
+    .skillList {
+        gap: 25px;
+    }
+    .item {
+        font-size: 2.8vh;
+    }
+    
+}

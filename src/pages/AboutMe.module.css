@@ -1,0 +1,39 @@
+.main {
+    padding-top: 12vh;
+    padding-bottom: 10vh;
+    background-color: #eeeeee;
+    margin: 0;
+    position: relative;
+    z-index: 10;
+    width: 100%;
+}
+
+.title {
+    font-size: 4.5vh;
+    color: #0076b5;
+    text-decoration: underline;
+    margin-bottom: 7vh;
+    font-family: 'Heebo', sans-serif;
+}
+
+.line {
+    font-size: 3.5vh;
+    margin: 15px;
+    color: #737373;
+    margin-bottom: 60px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.resume {
+    font-size: 3.6vh;
+    margin: auto;
+    padding: 1vh;
+    padding: 10px;
+    padding-top: 5px;
+    background-color: #DBDDDF;
+    width: 100px;
+    border-radius: 2px;
+    text-decoration: none;
+    color: #005582;
+    box-shadow: rgba(60, 64, 67, 0.143) 0px 1px 2px 0px, rgba(60, 64, 67, 0.075) 0px 1px 3px 1px;
+}

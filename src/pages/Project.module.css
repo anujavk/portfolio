@@ -1,0 +1,103 @@
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    padding-top: 7vh;
+    padding-bottom: 9vh;
+    background-color: #f8f9fa;
+    align-items: center;
+    justify-items: center;
+}
+
+.title {
+    font-size: 4.5vh;
+    color: #0076b5;
+    text-decoration: underline;
+    margin-bottom: 3vh;
+    font-family: 'Heebo', sans-serif;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 32vw 32vw;
+    gap: 100px;
+    margin-top: 50px;
+}
+
+.project {
+    background-color: #f2f3f3;
+    height: max-content;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    text-decoration: none;
+}
+
+.projectName {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 3vh;
+    background-color: #e5e5e6;
+    text-align: left;
+    padding: 3px;
+    padding-bottom: 3px;
+    padding-left: 0.72vw;
+    width: calc(100% - 0.89vw);
+    color: #4d4c4c;
+    height: max-content;
+}
+
+.projectName:hover {
+    color: #737373;
+    font-size: 2.5vh;
+}
+
+.name {
+    font-size: 3.5vh;
+    padding-top: 1.2vh;
+    padding-bottom: 1vh;
+    padding-left: 0.72vw;
+    width: calc(100% - 0.72vw);
+    color: #4d4c4c;
+    background-color: #e5e5e6;
+    position: relative;
+    top: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.desc {
+    font-size: 2.3vh;
+    padding-left: 3.5vh;
+    padding-right: 3.5vh;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(74, 74, 74);
+}
+
+.tech {
+    border-top: 1px solid #e5e5e6;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    font-size: 2.3vh;
+    color: rgb(57, 57, 57);
+    font-family: 'Barlow', sans-serif;
+}
+
+@media only screen and (max-width: 1025px) {
+    .title {
+        margin-bottom: 10px;
+    }
+    .row {
+        grid-template-columns: 75vw;
+        gap: 60px;
+    }
+    .project {
+        height: max-content;
+    }
+    .projectName {
+        width: calc(100% - 1.4vw);
+    }
+}

@@ -1,0 +1,110 @@
+.main-block {
+    font-size: 3.9vh;
+    height: 10vh;
+    z-index: 30;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.grey {
+    background-color: #8c8b8be5;
+    height: 8vh;
+}
+
+.logo {
+    display: inline;
+    text-decoration: none;
+    float: left;
+    padding-left: 20px;
+    font-size: 4.4vh;
+    font-family: 'Bad Script', cursive;
+}
+
+.tabsDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 30px;
+    padding-right: 20px;
+    padding-top: 1vh;
+    font-family: 'Roboto Slab', serif;
+}
+
+.tabs {
+    text-decoration: none;
+    color: inherit;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.tabs:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.081);
+    border-radius: 3px;
+}
+
+.iconBtn {
+    text-align: center;
+    padding-top: 0.3vw;
+    font-size: 4.5vh;
+}
+
+.active {
+    color: #0076b5;
+}
+
+li {
+    display: inline;
+    justify-content: space-between;
+    color: black;
+}
+
+.icons {
+    display: none;
+}
+
+@media only screen and (max-width: 1025px) {
+    .main-block{
+        padding-top: 0.5vh;
+    }
+    .icons {
+        display: inline;
+        float: right;
+        align-items: center;
+        padding-right: 30px;
+        margin-top: 1.5vh;
+    }
+    .open {
+        display: block;
+        float: none;
+        text-align: center;
+        margin: 0;
+        text-decoration: none;
+        color: #737373;
+        background-color: #cecece;
+    }
+    .tabs {
+        display: none;
+        float: none;
+    }
+    .tabsDiv {
+        flex-direction: column;
+        justify-content:flex-start;
+        width: 100%;
+        height: max-content;
+        color: #737373;
+        z-index: 100;
+    }
+    .active {
+        color: #0076b5;
+    }
+    .logo {
+        padding-left: 10px;
+    }
+    .nav{
+        background-color: #cecece;
+        height: 100%;
+    }
+}
