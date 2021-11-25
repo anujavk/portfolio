@@ -65,6 +65,14 @@
     margin: 0.8vh;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
 @media only screen and (max-width: 1025px) {
     .main {
         padding-top: 8vh;
