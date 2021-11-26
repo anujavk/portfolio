@@ -7,7 +7,7 @@ const Experience = () => {
             <div className={classes.exp}>
                 <div className={classes.date}>July, 2020 - Present</div>
                 <div className={classes.info}>
-                    <div className={classes.jobTitle}>Software Development Engineer</div>
+                    <div className={classes.jobTitle}>Developer Associate (SDE)</div>
                     <div className={classes.location}>SAP Labs, Bangalore, India</div>
                     <div className={classes.summary}>
                         Part of SAP Enable Now product team, working on writing reusable automation script for<span className={classes.bold}> API and UI testing.</span>

@@ -10,7 +10,7 @@ const AboutMe = () => {
                     <div>blah blab blah blah blab blah blah blab blah</div>
                     <div>blah blab blah blah blab blah blah blab blah</div>
                 </div>
-                <a href="https://drive.google.com/file/d/1wL92eyQt5nNGQG9azCDwj0zqjWxzoi2T/view?usp=sharing" target="_blank" rel="noopener noreferrer" className={classes.resume}>
+                <a href="https://drive.google.com/file/d/1C3R7A6cmmnyugOtUSug3BQpRBKwbHm0b/view?usp=sharing" target="_blank" rel="noopener noreferrer" className={classes.resume}>
                     Resume
                 </a>
             </div>
