@@ -1,6 +1,6 @@
 import classes from './Skills.module.css';
 
-const skills = ['JavaScript', 'TypeScript', 'React', 'Redux', 'NodeJs', 'HTML/CSS', 'Selenium', 'Protractor', 'Docker', 'Postman', 'Machine learning', 'Computer Vision', 'Git', 'Jira', 'Jenkins', 'Python', 'C++'];
+const skills = ['JavaScript', 'TypeScript', 'React', 'Redux', 'NodeJs', 'HTML/CSS', 'Selenium', 'Protractor', 'Docker', 'Postman', 'Machine learning', 'Computer Vision', 'Git', 'Jira', 'Jenkins', 'Java', 'C++'];
 
 const Skills = () => {
     return (

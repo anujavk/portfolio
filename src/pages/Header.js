@@ -46,7 +46,7 @@ const Header = (props) => {
                     <IoLogoLinkedin className={classes.iconBtn} />
                 </a>
                 <a
-                    href="https://drive.google.com/file/d/1C3R7A6cmmnyugOtUSug3BQpRBKwbHm0b/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1u7IniTHxX9hQ-AbHyt_PgxdA1B3STsAr/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={tabClass}
