@@ -1,7 +1,6 @@
 import classes from './Header.module.css';
 import { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
-import { NavLink } from 'react-router-dom';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdClose } from 'react-icons/md';
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io';
@@ -46,9 +45,15 @@ const Header = (props) => {
                 <a href="https://www.linkedin.com/in/anuja-khadatkar-435235166" target="_blank" rel="noopener noreferrer" className={tabClass} activeClassName={classes.active}>
                     <IoLogoLinkedin className={classes.iconBtn} />
                 </a>
-                <NavLink to={{ pathname: 'https://www.google.com' }} target="_blank" className={tabClass} activeClassName={classes.active}>
+                <a
+                    href="https://drive.google.com/file/d/1m69cjUriov5kZVxggTrJ94XT5y_FaYUi/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={tabClass}
+                    activeClassName={classes.active}
+                >
                     Resume
-                </NavLink>
+                </a>
                 <Link to="experience" onClick={verNavCloseHandler} spy={true} smooth={true} duration={2000} className={tabClass} activeClassName={classes.active}>
                     Experience
                 </Link>

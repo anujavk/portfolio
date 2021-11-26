@@ -1,5 +1,4 @@
 import classes from './AboutMe.module.css';
-import { NavLink } from 'react-router-dom';
 
 const AboutMe = () => {
     return (
@@ -11,7 +10,9 @@ const AboutMe = () => {
                     <div>blah blab blah blah blab blah blah blab blah</div>
                     <div>blah blab blah blah blab blah blah blab blah</div>
                 </div>
-                <NavLink to={{ pathname: 'https://www.google.com' }} target="_blank" className={classes.resume}>Resume</NavLink>
+                <a href="https://drive.google.com/file/d/1m69cjUriov5kZVxggTrJ94XT5y_FaYUi/view?usp=sharing" target="_blank" rel="noopener noreferrer" className={classes.resume}>
+                    Resume
+                </a>
             </div>
         </section>
     );

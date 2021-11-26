@@ -42,13 +42,13 @@ const Experience = () => {
             <div className={classes.exp}>
                 <div className={classes.date}>May, 2018 - June, 2018</div>
                 <div className={classes.info}>
-                    <div className={classes.jobTitle}>Software Development Intern</div>
+                    <div className={classes.jobTitle}>Research Intern</div>
                     <div className={classes.location}>Airpix, Mumbai, India</div>
                     <div className={classes.summary}>
                         Built a system which can automatically <span className={classes.bold}>detect, classify and count different vehicle</span> and track them from any{' '}
                     </div>
                     <div className={classes.summary}>
-                        video footage realtime using <span className={classes.bold}>neural networks and computer vision</span> with state-of-the-art concepts.
+                        video footage in real time using <span className={classes.bold}>neural networks and computer vision</span> with state-of-the-art methods.
                     </div>
                     <div className={classes.summary}>
                         Tech stack: <span className={classes.underline}>Python, Opencv, tensorflow</span>
