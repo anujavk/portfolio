@@ -3,7 +3,7 @@ import classes from './Project.module.css';
 const data = [
     {
         name: 'Restaurant Food Ordering App',
-        desc: 'An e-commerce responsive website to order food built using React and its hooks firebase to store data using fetch API and Context API to share data.',
+        desc: 'An e-commerce responsive website to order food built using React and its hooks, firebase to store data using fetch API and Context API to share data.',
         tech: 'React, Hooks, React Router, JavaScript, CSS, Context API',
         href: 'https://anujavk.github.io/restaurant-website/',
     },
