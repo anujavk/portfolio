@@ -10,7 +10,10 @@ const Experience = () => {
                     <div className={classes.jobTitle}>Developer Associate (SDE)</div>
                     <div className={classes.location}>SAP Labs, Bangalore, India</div>
                     <div className={classes.summary}>
-                        Part of SAP Enable Now product team, working on writing reusable automation script for<span className={classes.bold}> API and UI testing.</span>
+                        Part of team in SAP Enable Now product that develops <span className={classes.bold}> scalable and reusable code and libraries, </span>
+                    </div>
+                    <div className={classes.summary}>
+                        coded in <span className={classes.bold}>Typescript and JavaScript along with NodeJS. </span>
                     </div>
                     <div className={classes.summary}>
                         Developing using concepts like <span className={classes.bold}>page object model, design pattern, asynchronous programming and OOPS.</span>{' '}
@@ -31,9 +34,9 @@ const Experience = () => {
                     <div className={classes.jobTitle}>Software Development Engineer Intern</div>
                     <div className={classes.location}>Barclays, Pune, India</div>
                     <div className={classes.summary}>
-                        Worked on <span className={classes.bold}>proof of concept for test automation framework</span> for Barclays internal billing system, and helped
+                        Worked on <span className={classes.bold}>proof of concept for internal framework</span> for Barclays internal billing system and built foundation
                     </div>
-                    <div className={classes.summary}>build foundation for UI testing framework by developing reusable code snippets.</div>
+                    <div className={classes.summary}> for it by developing reusable code snippets using <span className={classes.bold}>Java.</span></div>
                     <div className={classes.summary}>
                         Tech stack: <span className={classes.underline}>Java, Selenium, Cucumber</span>
                     </div>
