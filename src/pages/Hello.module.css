@@ -33,13 +33,14 @@
 
 .line4 {
     color: white;
+    width: 30vw;
     margin-top: 60px;
     margin-bottom: 0;
     font-size: 4vh;
     text-align: center;
     border-width: 3px;
     border-style: ridge;
-    margin-left: 30vw;
+    margin-left: 35%;
     margin-right: 30vw;
     margin-top: 10vh;
     padding-bottom: 5px;

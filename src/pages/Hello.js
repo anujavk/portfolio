@@ -8,7 +8,7 @@ const Hello = () => {
             <div className={classes.line2}>Anuja Khadatkar</div>
             <div className={classes.line3}>Passionate about changing the world with technology.</div>
             <Link to="contact" spy={true} smooth={true} duration={2000} className={classes.line4}>
-                Let's make something happen
+                Connect with me
             </Link>
         </section>
     );
