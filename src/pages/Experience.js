@@ -23,9 +23,6 @@ const Experience = () => {
                         <span className={classes.bold}>Reduced day long work</span> of manual UI testing <span className={classes.bold}>to 3 hrs</span> of automation. Managing{' '}
                         <span className={classes.bold}>docker</span> for the Jenkins jobs.
                     </div>
-                    <div className={classes.summary}>
-                        Tech stack: <span className={classes.underline}>Typescript, JavaScript, Nodejs, Docker, Protractor, Webdriverio, Mocha, Jasmine</span>
-                    </div>
                 </div>
             </div>
             <div className={classes.exp}>
@@ -37,9 +34,6 @@ const Experience = () => {
                         Worked on <span className={classes.bold}>proof of concept for internal framework</span> for Barclays internal billing system and built foundation
                     </div>
                     <div className={classes.summary}> for it by developing reusable code snippets using <span className={classes.bold}>Java.</span></div>
-                    <div className={classes.summary}>
-                        Tech stack: <span className={classes.underline}>Java, Selenium, Cucumber</span>
-                    </div>
                 </div>
             </div>
             <div className={classes.exp}>
