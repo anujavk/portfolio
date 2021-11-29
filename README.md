@@ -1,6 +1,6 @@
 # Personal Website
 
-Personal website built using React with firebase to store data\
+Personal website built using ReactJS\
 A demo for the Website App is available [here](https://anujavk.github.io/portfolio/).\
 The app is responsive (suitable for different screen sizes - phone, tablet, etc.)!
 
